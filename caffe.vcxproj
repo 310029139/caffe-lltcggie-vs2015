@@ -144,7 +144,7 @@
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>false</SDLCheck>
       <AdditionalIncludeDirectories>D:\temp\3rdparty\LEVELDB\include;D:\temp\protobuf-2.5.0\src;D:\temp\3rdparty\GFlags\Include;D:\temp\3rdparty\GLog\include;D:\temp\3rdparty\Boost;D:\temp\opencv\build\include;D:\temp\CUDA_ToolKit\include;D:\temp\3rdparty\HDF5\include;D:\temp\3rdparty\LMDB\include;D:\temp\3rdparty\OpenBLAS\include;D:\temp\caffe\src;D:\temp\caffe\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <AdditionalOptions>/D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
